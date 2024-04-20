@@ -37,7 +37,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="21989 MB"
+            title="9,989 MB"
             subtitle="Uploads"
             progress="0.75"
             increase="+14%"
@@ -56,7 +56,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225 MB"
+            title="16,225 MB"
             subtitle="Download"
             progress="0.50"
             increase="+21%"
@@ -75,7 +75,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
+            title="12"
             subtitle="Total Users"
             progress="0.30"
             increase="+5%"
@@ -94,7 +94,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134 MB"
+            title="25,134 MB"
             subtitle="Total Traffic Received"
             progress="0.80"
             increase="+43%"
@@ -132,7 +132,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                102910 MB
+                10,910 MB
               </Typography>
             </Box>
             
