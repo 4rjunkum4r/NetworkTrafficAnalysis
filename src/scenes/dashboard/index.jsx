@@ -94,7 +94,7 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="25,134 MB"
+            title="26,214 MB"
             subtitle="Total Traffic Received"
             progress="0.80"
             increase="+43%"
@@ -132,7 +132,7 @@ const Dashboard = () => {
                 fontWeight="bold"
                 color={colors.greenAccent[500]}
               >
-                10,910 MB
+                26,214 MB
               </Typography>
             </Box>
             
@@ -159,9 +159,9 @@ const Dashboard = () => {
               Recent Users
             </Typography>
           </Box>
-          {mockTraffic.map((transaction, i) => (
+          {mockTraffic.map((traffic, i) => (
             <Box
-              key={`${transaction.txId}-${i}`}
+              key={`${traffic.txId}-${i}`}
               display="flex"
               justifyContent="space-between"
               alignItems="center"
@@ -174,19 +174,19 @@ const Dashboard = () => {
                   variant="h5"
                   fontWeight="600"
                 >
-                  {transaction.txId}
+                  {traffic.txId}
                 </Typography>
                 <Typography color={colors.grey[100]}>
-                  {transaction.user}
+                  {traffic.user}
                 </Typography>
               </Box>
-              <Box color={colors.grey[100]}>{transaction.date}</Box>
+              <Box color={colors.grey[100]}>{traffic.date}</Box>
               <Box
                 backgroundColor={colors.greenAccent[500]}
                 p="5px 10px"
                 borderRadius="4px"
               >
-                {transaction.usage} MB
+                {traffic.usage} MB
               </Box>
             </Box>
           ))}
@@ -214,14 +214,14 @@ const Dashboard = () => {
               color={colors.blueAccent[500]}
               sx={{ mt: "15px" }}
             >
-              25,134 MB
+              9,989 MB
             </Typography>
             <Typography
               variant="h5"
               color={colors.greenAccent[500]}
               sx={{ mt: "15px" }}
             >
-              1,325,134 MB
+              16,225 MB
             </Typography>
           </Box>
         </Box>
